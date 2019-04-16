@@ -2,7 +2,7 @@ library(sampleSelection)
 library(panelAR)
 
 #load the data:
-df=read.csv("Dataset.csv")
+df=read.csv("Data.csv")
 
 #simple probit model for the probability of being formally institutionalized and informally constrained
 heck -> glm(full_inst ~ loggdp+logpop+inf_mort+resource+dem_legacy, 
@@ -34,7 +34,7 @@ df$yhat_sim1.1 -> predict(sim1.1, newdata=df)
 t.test(df$yhat_sim1.0, df$yhat_sim1.1)
 
 #same procedure, but with panel-corrected standard errors for models:
-#PTS_S, AR(1)
+#AR(1)
 sim2.0 -> panelAR(RL.EST ~ loggdp+logpop+inf_mort+resource+gwf_duration+dem_legacy+mill0,
                data=df_noinst,
                panelVar="country",
