@@ -18,7 +18,7 @@ The steps for the model can be described as follows:
     coefficients, controlling for self-selection;
 4) use the regression coefficients from step
     3 to calculate predicted value of the dependent variable (Ŷ) for
-    #all the data;# in this way, for every institutional outcome, one estimates what the value of Y would
+    **all the data**; in this way, for every institutional outcome, one estimates what the value of Y would
     have been if all country-years had the this particular institution;
 5) use a simple t-test, to determine if the difference between predicted Y-s is statistically significant and
     has an expected sign.
