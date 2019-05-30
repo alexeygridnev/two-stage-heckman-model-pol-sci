@@ -35,7 +35,27 @@ Control varaibles:
 
 Requred packaged: "sampleSelection", "panelAR". 
 
-The dataset uploaded in this repository should also be considered as a replication material for my Ph. D. dissertation.
+The dataset uploaded in this repository should also be considered as a replication material for my Ph. D. dissertation. Dataset used for the analysis.
+Variables description:
+"country" - name on the country
+"year" - year
+"regime" - degree of informal constraints imposed on the dictator; recoded from the regime types in Geddes et al. (2014)
+"inst" - degree of formal institutionalization of the regime; recoded from the dataset by Przeworski et al. (2013)
+"loggdp" - logged  GDP per capita (PPP, 2011 constant international $), source - World Bank
+"logpop" - logged population; source - World Bank
+"inf_mort" - infant mortality (the number of children who died before the age of 1 year per 1000 live births); source: World Bank
+"resource" - resource dependency as a sum of oil, gas, and mineral rents (as % of GDP); source: World Bank 
+"full_inst" - dummy variable with the value of 1 if a regime is both formally institutionalized and informally constrained (based on recoding variables "inst" and "regime")
+"gwf_duration" - years of regime survival from its inception; source - Geddes et al. (2014)
+"dem_legacy" - dummy variable with the value of 1 if a prior regime was democratic; source: Geddes et al. (2014)
+"RL.EST" - point estimate of the Rule of Law indicator of WGI Index; source: World Bank
+"v2xcl_rol" - Equality before the law and individual liberty index; source - V-Dem
+"PTS_S" - Political Terror Scale (coded from U.S. State Department reports); source: Wood and Gibney (2010)
+"PTS_A" - Political Terror Scale (coded from U.S. State Department reports); source: Wood and Gibney (2010)
+"hf_prights" - index of property rights protection; source: Heritage Foundation.
+
+
+
 
 References:
 
